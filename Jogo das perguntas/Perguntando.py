@@ -1,14 +1,14 @@
-import pygame
-pygame.init()
-pygame.mixer.music.load('SoundTTPN.mp3')
-pygame.mixer.music.play()
+from pygame import mixer, init, event
+init()
+mixer.music.load('SoundTTPN.mp3')
+mixer.music.play()
 
 print(f"""
      {32*'*'} Precione ENTER para começar {35*'*'}
 """
 )
 
-input(pygame.event.wait(2))
+input(event.wait())
 
 
 print(
@@ -36,4 +36,4 @@ input(
     {28*'='} PRECIONE ENTER PARA FINALIZAR {28*'='}
     """
 )
-pygame.event.wait()
+event.wait()
