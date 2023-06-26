@@ -19,7 +19,7 @@ print(f"""
 
 input(event.wait())
 
-
+print(' ')
 
 Name = input('Digete seu nome completo: ')
 Name_s = Name.split()
