@@ -1,7 +1,16 @@
+# Necessário a biblioteca pygame, instal: pip install pygame
+
 from pygame import mixer, init, event
 init()
 mixer.music.load('SoundTTPN.mp3')
 mixer.music.play()
+
+print(
+    f"""
+    {20*'='} OLA!!! SEJA MUITO BEM VINDO AO TOPA TUDO POR NADA!!! {20*'='}
+    {11*' '}Antes de darmos inicio eu preciso de algumas informações sobre você!!!
+    """
+)
 
 print(f"""
      {32*'*'} Precione ENTER para começar {35*'*'}
@@ -11,12 +20,6 @@ print(f"""
 input(event.wait())
 
 
-print(
-    f"""
-    {20*'='} OLA!!! SEJA MUITO BEM VINDO AO TOPA TUDO POR NADA!!! {20*'='}
-    {11*' '}Antes de darmos inicio eu preciso de algumas informações sobre você!!!
-    """
-)
 
 Name = input('Digete seu nome completo: ')
 Name_s = Name.split()
