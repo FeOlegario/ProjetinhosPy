@@ -1,0 +1,1 @@
+Olá, aqui eu estarie colocando alguns projetos para praticar mais a linguagem Python.
