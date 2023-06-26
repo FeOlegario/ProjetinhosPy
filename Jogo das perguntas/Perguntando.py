@@ -24,7 +24,7 @@ age = int(input('Digite sua didade: '))
 
 print(
     f"""
-Beleza, {Name_s[0]}!!! VAMOS COMEÇAR!!
+Beleza, {Name_s[0]} {Name_s[-1]}!!! VAMOS COMEÇAR!!
     """
 )
 print(F"{30*'='} OBRIGADO POR JOGAR! ATÉ A PRÓXIMA!! {30*'='}")
